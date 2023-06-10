@@ -1,0 +1,38 @@
+export const styles = {
+  mainContainer: {
+    paddingTop: 37,
+    paddingLeft: 38,
+    width: 260,
+    height: 1117,
+    lineHeight: "43px",
+    backgroundColor: "#FFFFFF",
+  },
+  navButtonContainer: {
+    marginLeft: -19,
+    marginTop: 100,
+    height: 60,
+    width: 250,
+    border: "solid",
+    borderWidth: 0,
+    borderBottomWidth: 1.5,
+    borderBottomColor: "lightgray",
+  },
+  navButton: {
+    paddingTop: 15,
+    height: 60,
+    width: 250,
+    border: "solid",
+    borderWidth: 0,
+    borderBottomWidth: 1.5,
+    borderBottomColor: "lightgray",
+  },
+  customButton: {
+    fontFamily: "Poppins",
+    fontStyle: "normal",
+    fontWeight: 600,
+    fontSize: 33,
+    width: 231,
+    marginTop: 740,
+    marginLeft: -9,
+  },
+};
