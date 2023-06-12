@@ -375,6 +375,7 @@ function Home() {
             src={
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtUA5YeBdewUyvoIWsi0PZ-lbjMOShR4SWGtpXZ53_X36HM7WHWS55sZJJ5HuGAl-7YZY&usqp=CAU"
             }
+            alt=""
           />
         </div>
       </div>
