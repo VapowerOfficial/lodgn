@@ -116,7 +116,7 @@ function Home() {
             width: 387,
             height: 48,
             borderRightWidth: 1,
-            borderColor: "",
+            borderColor: "#959595",
             border: "solid",
             borderWidth: 0,
             marginLeft: 10,
@@ -239,68 +239,143 @@ function Home() {
             </AppText>
           </div>
         </div>
-        <div className="holidayBox"></div>
-        <div className="holidayBoxBox" style={{ marginLeft: 1, marginTop: 1 }}>
-          <div
-            className="bookNowButton"
-            style={{ marginTop: -815, marginLeft: -440 }}
-          >
-            <div style={{ paddingTop: 10, paddingLeft: 25 }}>
-              <AppText color="#FFFFFF" size="17.59px" secondary={true}>
-                Book now
-              </AppText>
-            </div>
-          </div>
-          <div style={{ paddingTop: 10, paddingLeft: 20 }}>
-            <AppText color="#959595" size="17.5894px" secondary={true}>
-              1.5 miles away from joblocation.
+        <div className="holidayBox">
+          <div style={{ paddingTop: 90, paddingLeft: 90 }}>
+            <AppText
+              color="#85C371"
+              weight={400}
+              fontStyle="italic"
+              size="19.1247px"
+            >
+              Holiday Inn
             </AppText>
-            <div style={{ paddingTop: 30 }}>
-              <AppText color="#959595" size="15.2321px">
-                Singles:$120
-              </AppText>
-            </div>
-            <div style={{ paddingTop: 15 }}>
-              <AppText color="#959595" size="15.2321px">
-                Doubles:$145
-              </AppText>
-            </div>
-          </div>
-        </div>
-        <div className="holidayBox"></div>
-        <div className="holidayBoxBox" style={{ marginLeft: 1, marginTop: 1 }}>
-          <div
-            className="bookNowButton"
-            style={{ marginTop: -815, marginLeft: -440 }}
-          >
-            <div style={{ paddingTop: 10, paddingLeft: 25 }}>
-              <AppText color="#FFFFFF" size="17.59px" secondary={true}>
-                Book now
-              </AppText>
-            </div>
-          </div>
-          <div style={{ paddingTop: 10, paddingLeft: 20 }}>
-            <AppText color="#959595" size="17.5894px" secondary={true}>
-              1.5 miles away from joblocation.
-            </AppText>
-            <div style={{ paddingTop: 30 }}>
-              <AppText color="#959595" size="15.2321px">
-                Singles:$120
-              </AppText>
-            </div>
-            <div style={{ paddingTop: 15 }}>
-              <AppText color="#959595" size="15.2321px">
-                Doubles:$145
-              </AppText>
-            </div>
           </div>
         </div>
         <div className="rareBox">
-          <div style={{ paddingTop: 12, paddingLeft: 38 }}>
-            <AppText color="#FFFFFF" size="13.3512px">
+          <div style={{ paddingTop: 12, paddingLeft: 35 }}>
+            <AppText color="#FFFFFF" size="13.35px">
               Rare Find
             </AppText>
           </div>
+        </div>
+        <div className="holidayBoxBox" style={{ marginLeft: 1, marginTop: 1 }}>
+          <div
+            className="bookNowButton"
+            style={{ marginTop: -815, marginLeft: -440 }}
+          >
+            <div style={{ paddingTop: 10, paddingLeft: 25 }}>
+              <AppText color="#FFFFFF" size="17.59px" secondary={true}>
+                Book now
+              </AppText>
+            </div>
+          </div>
+          <div style={{ paddingTop: 10, paddingLeft: 20 }}>
+            <AppText color="#959595" size="17.5894px" secondary={true}>
+              1.5 miles away from joblocation.
+            </AppText>
+            <div style={{ paddingTop: 30 }}>
+              <AppText color="#959595" size="15.2321px">
+                Singles:$120
+              </AppText>
+            </div>
+            <div style={{ paddingTop: 15 }}>
+              <AppText color="#959595" size="15.2321px">
+                Doubles:$145
+              </AppText>
+            </div>
+          </div>
+        </div>
+        <div className="holidayBox2">
+          <div style={{ paddingTop: 90, paddingLeft: 90 }}>
+            <AppText
+              color="#85C371"
+              weight={400}
+              fontStyle="italic"
+              size="19.1247px"
+            >
+              Holiday Inn
+            </AppText>
+          </div>
+        </div>
+        <div className="holidayBoxBox2">
+          <div
+            className="bookNowButton"
+            style={{ marginTop: -815, marginLeft: -440 }}
+          >
+            <div style={{ paddingTop: 10, paddingLeft: 25 }}>
+              <AppText color="#FFFFFF" size="17.59px" secondary={true}>
+                Book now
+              </AppText>
+            </div>
+          </div>
+          <div style={{ paddingTop: 10, paddingLeft: 20 }}>
+            <AppText color="#959595" size="17.5894px" secondary={true}>
+              1.5 miles away from joblocation.
+            </AppText>
+            <div style={{ paddingTop: 30 }}>
+              <AppText color="#959595" size="15.2321px">
+                Singles:$120
+              </AppText>
+            </div>
+            <div style={{ paddingTop: 15 }}>
+              <AppText color="#959595" size="15.2321px">
+                Doubles:$145
+              </AppText>
+            </div>
+          </div>
+        </div>
+        <div className="holidayBox3">
+          <div style={{ paddingTop: 90, paddingLeft: 90 }}>
+            <AppText
+              color="#85C371"
+              weight={400}
+              fontStyle="italic"
+              size="19.1247px"
+            >
+              Holiday Inn
+            </AppText>
+          </div>
+        </div>
+        <div className="holidayBoxBox3">
+          <div
+            className="bookNowButton"
+            style={{ marginTop: -815, marginLeft: -440 }}
+          >
+            <div style={{ paddingTop: 10, paddingLeft: 25 }}>
+              <AppText color="#FFFFFF" size="17.59px" secondary={true}>
+                Book now
+              </AppText>
+            </div>
+          </div>
+          <div style={{ paddingTop: 10, paddingLeft: 20 }}>
+            <AppText color="#959595" size="17.5894px" secondary={true}>
+              1.5 miles away from joblocation.
+            </AppText>
+            <div style={{ paddingTop: 30 }}>
+              <AppText color="#959595" size="15.2321px">
+                Singles:$120
+              </AppText>
+            </div>
+            <div style={{ paddingTop: 15 }}>
+              <AppText color="#959595" size="15.2321px">
+                Doubles:$145
+              </AppText>
+            </div>
+          </div>
+        </div>
+        <div className="msgButton">
+          <img
+            style={{
+              mixBlendMode: "multiply",
+              width: 100,
+              height: 100,
+              paddingTop: 15,
+              paddingLeft: 15,
+            }}
+            src={
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtUA5YeBdewUyvoIWsi0PZ-lbjMOShR4SWGtpXZ53_X36HM7WHWS55sZJJ5HuGAl-7YZY&usqp=CAU"
+            }
+          />
         </div>
       </div>
     </DefaultTemplate>
