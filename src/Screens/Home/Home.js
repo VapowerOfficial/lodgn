@@ -240,10 +240,61 @@ function Home() {
           </div>
         </div>
         <div className="holidayBox"></div>
-        <div
-          className="holidayBoxBox"
-          style={{ marginLeft: 1, marginTop: 1 }}
-        ></div>
+        <div className="holidayBoxBox" style={{ marginLeft: 1, marginTop: 1 }}>
+          <div
+            className="bookNowButton"
+            style={{ marginTop: -815, marginLeft: -440 }}
+          >
+            <div style={{ paddingTop: 10, paddingLeft: 25 }}>
+              <AppText color="#FFFFFF" size="17.59px" secondary={true}>
+                Book now
+              </AppText>
+            </div>
+          </div>
+          <div style={{ paddingTop: 10, paddingLeft: 20 }}>
+            <AppText color="#959595" size="17.5894px" secondary={true}>
+              1.5 miles away from joblocation.
+            </AppText>
+            <div style={{ paddingTop: 30 }}>
+              <AppText color="#959595" size="15.2321px">
+                Singles:$120
+              </AppText>
+            </div>
+            <div style={{ paddingTop: 15 }}>
+              <AppText color="#959595" size="15.2321px">
+                Doubles:$145
+              </AppText>
+            </div>
+          </div>
+        </div>
+        <div className="holidayBox"></div>
+        <div className="holidayBoxBox" style={{ marginLeft: 1, marginTop: 1 }}>
+          <div
+            className="bookNowButton"
+            style={{ marginTop: -815, marginLeft: -440 }}
+          >
+            <div style={{ paddingTop: 10, paddingLeft: 25 }}>
+              <AppText color="#FFFFFF" size="17.59px" secondary={true}>
+                Book now
+              </AppText>
+            </div>
+          </div>
+          <div style={{ paddingTop: 10, paddingLeft: 20 }}>
+            <AppText color="#959595" size="17.5894px" secondary={true}>
+              1.5 miles away from joblocation.
+            </AppText>
+            <div style={{ paddingTop: 30 }}>
+              <AppText color="#959595" size="15.2321px">
+                Singles:$120
+              </AppText>
+            </div>
+            <div style={{ paddingTop: 15 }}>
+              <AppText color="#959595" size="15.2321px">
+                Doubles:$145
+              </AppText>
+            </div>
+          </div>
+        </div>
         <div className="rareBox">
           <div style={{ paddingTop: 12, paddingLeft: 38 }}>
             <AppText color="#FFFFFF" size="13.3512px">
