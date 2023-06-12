@@ -6,7 +6,7 @@ import { styles } from "./DashboardStyles";
 
 export default function Dashboard() {
   return (
-    <div className="dashboardshadow" style={styles.mainContainer}>
+    <div className="dashBoardShadow" style={styles.mainContainer}>
       <AppText
         secondary={true}
         fontStyle={"italic"}
