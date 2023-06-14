@@ -1,1 +1,72 @@
-export const style = {};
+export const styles = {
+  requestText: {
+    marginTop: -1075,
+    marginLeft: 394,
+  },
+  smallDiv: {
+    width: 1114,
+    height: 226,
+    backgroundColor: "#FFFFFF",
+    marginLeft: 402,
+    marginTop: 75,
+  },
+  smallDivBigText: {
+    paddingLeft: 35,
+    paddingTop: 50,
+    display: "flex",
+    flexDirection: "column",
+  },
+  dateText: {
+    height: 251.84,
+    width: 55,
+    marginLeft: 400,
+    marginTop: -130,
+    borderWidth: 0,
+    borderBottomWidth: 1,
+    borderTopWidth: 1,
+  },
+  roomText: {
+    paddingLeft: 590,
+    marginTop: -35,
+  },
+  longBox: {
+    borderWidth: 1,
+    borderColor: "#959595",
+    width: 1072,
+    height: 48,
+    border: "solid",
+    boxSizing: "border-box",
+    borderRadius: 24,
+    marginLeft: 10,
+    marginTop: 50,
+  },
+  recievedBox: {
+    width: 387,
+    height: 48,
+    borderRightWidth: 1,
+    borderColor: "#959595",
+    border: "solid",
+    borderWidth: 0,
+    marginLeft: 10,
+    marginTop: -48,
+    backgroundColor: "#FDF307",
+  },
+  rightLine: {
+    width: 387,
+    height: 48,
+    borderLeftWidth: 1,
+    color: "#959595",
+    border: "solid",
+    borderWidth: 0,
+    marginLeft: 660,
+    marginTop: -48,
+  },
+  recievedText: {
+    marginLeft: 30,
+    marginTop: -33,
+  },
+  holidayInn: {
+    paddingTop: 90,
+    paddingLeft: 90,
+  },
+};
