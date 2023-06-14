@@ -1,4 +1,13 @@
 export const styles = {
+  dateText: {
+    height: 251.84,
+    width: 55,
+    marginLeft: 400,
+    marginTop: -130,
+    borderWidth: 0,
+    borderBottomWidth: 1,
+    borderTopWidth: 1,
+  },
   requestText: {
     marginTop: -1075,
     marginLeft: 394,
@@ -9,21 +18,6 @@ export const styles = {
     backgroundColor: "#FFFFFF",
     marginLeft: 402,
     marginTop: 75,
-  },
-  smallDivBigText: {
-    paddingLeft: 35,
-    paddingTop: 50,
-    display: "flex",
-    flexDirection: "column",
-  },
-  dateText: {
-    height: 251.84,
-    width: 55,
-    marginLeft: 400,
-    marginTop: -130,
-    borderWidth: 0,
-    borderBottomWidth: 1,
-    borderTopWidth: 1,
   },
   roomText: {
     paddingLeft: 590,
@@ -65,8 +59,10 @@ export const styles = {
     marginLeft: 30,
     marginTop: -33,
   },
-  holidayInn: {
-    paddingTop: 90,
-    paddingLeft: 90,
+  divHeaders: {
+    paddingLeft: 35,
+    paddingTop: 50,
+    display: "flex",
+    flexDirection: "column",
   },
 };

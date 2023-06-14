@@ -1,6 +1,6 @@
 import React from "react";
-import { styles } from "./HomeStyles";
-import AppText from "../../Components/AppText/AppText";
+import { styles } from "./FirstSectionStyles";
+import AppText from "../AppText/AppText";
 
 function FirstSection() {
   return (
@@ -18,7 +18,7 @@ function FirstSection() {
         </div>
       </div>
       <div className="smallDivShadow" style={styles.smallDiv}>
-        <div style={styles.smallDivBigText}>
+        <div style={styles.divHeaders}>
           <div style={{ marginTop: -10 }}>
             <AppText
               secondary={true}

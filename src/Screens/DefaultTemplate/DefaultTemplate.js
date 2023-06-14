@@ -1,16 +1,11 @@
 import React from "react";
 import Dashboard from "../../Components/Dashboard/Dashboard";
+import { styles } from "./DefaultTemplateStyles";
 
 function DefaultTemplate({ children }) {
   return (
     <div>
-      <div
-        style={{
-          width: 1728,
-          height: 1154,
-          backgroundColor: "#D9D9D9",
-        }}
-      >
+      <div style={styles.dashBoardDiv}>
         <Dashboard />
         {children}
       </div>

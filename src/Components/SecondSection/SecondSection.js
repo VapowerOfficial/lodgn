@@ -1,6 +1,6 @@
 import React from "react";
-import AppText from "../../Components/AppText/AppText";
-import { styles } from "./HomeStyles";
+import AppText from "../AppText/AppText";
+import { styles } from "./SecondSectionStyles";
 
 function SecondSection() {
   return (
@@ -9,7 +9,7 @@ function SecondSection() {
         className="bigDiv"
         style={{ width: 1114, height: 526, backgroundColor: "white" }}
       >
-        <div style={styles.smallDivBigText}>
+        <div style={styles.divHeaders}>
           <div style={{ marginTop: -10 }}>
             <AppText
               secondary={true}

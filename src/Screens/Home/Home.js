@@ -1,8 +1,8 @@
 import React from "react";
 import DefaultTemplate from "../DefaultTemplate/DefaultTemplate";
-import HomeMessageImage from "./HomeMessageImage";
-import FirstSection from "./FirstSection";
-import SecondSection from "./SecondSection";
+import HomeMessageImage from "../../Components/MessageImage/MessageImage";
+import FirstSection from "../../Components/FirstSection/FirstSection";
+import SecondSection from "../../Components/SecondSection/SecondSection";
 
 function Home() {
   return (
